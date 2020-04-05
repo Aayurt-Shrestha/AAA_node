@@ -1,0 +1,12 @@
+[
+  {
+    "group": "user",
+    "permissions": [
+      {
+        "resource": "users/*",
+        "methods": [ "GET", "PUT"],
+        "action": "allow"
+      }
+    ]
+  }
+]
